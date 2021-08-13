@@ -1,0 +1,7 @@
+<clientes>
+	<cliente>
+		<cpf>123.456.789-00</cpf>
+		<nome>Viktor Vanders</nome>
+		<email>triptanov@vok.ru</email>
+	</cliente>
+</clientes>

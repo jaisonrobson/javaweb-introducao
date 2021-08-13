@@ -1,12 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 
-</body>
+<html>
+	<body>
+		<c:set var="string1" value="Jason robg" />
+		<c:set var="string2" value="Viciado em jogos eletronicos" />
+		<p>Tamanho da string (1): ${fn:length(string1)} </p>
+		<p>Tamanho da string (2): ${fn:length(string2)} </p>		
+	</body>
 </html>
