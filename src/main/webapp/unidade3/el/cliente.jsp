@@ -1,4 +1,4 @@
-<jsp:useBean id="cliente" class="el.Cliente"></jsp:useBean>
+<jsp:useBean id="cliente" class="unidade3.expressionlanguage.Cliente"></jsp:useBean>
 <% 
 	cliente.setCpf((long)123456789);
 	cliente.setNome("Aleksander");
