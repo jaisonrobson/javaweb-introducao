@@ -1,4 +1,4 @@
-package unidade3;
+package unidade3.migracaoservletparajsp;
 
 public class Calc {
 	public int cubo(int n) {

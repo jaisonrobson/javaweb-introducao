@@ -1,4 +1,4 @@
-package unidade3;
+package unidade3.expressionlanguage;
 
 public class Cliente {
 	private Long Cpf;
